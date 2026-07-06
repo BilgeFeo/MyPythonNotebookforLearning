@@ -43,7 +43,7 @@ a = 10
 > Siniflardaki private fonksiyonlar tanimlanirken basina __ eklemesi yapilabilir
 
 ```Python
-    class MyNewClass
+    class MyClass:
     
     def __init__(self, name, age, no):
         # Buradaki self this anahtar kelimesi gibidir sinifin kendini gosteren pointerdir
@@ -56,8 +56,20 @@ a = 10
         if no % 2 == 0:
             return True;
         return False
-
-
+    
+    def newMyClass(cts, information):
+        propertyInfo=list(parse(information))
+        if (len(propertyInfo==3)):
+            try:
+                return __init__(properyInfo[0],properyInfo[1],properyInfo[2])
+                
+            except:
+                print(your information not confirmed)
+        else:
+            print(your information not confirmed)
+           
+        return null
+        
 ```
 
 

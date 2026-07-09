@@ -1,3 +1,13 @@
+# Onemli
+
+- python derlenen (compile) bir degil yorumlanan (interprent)bir dildir bu yuzden yurulurken kaynak koda ihtiyac duyar
+
+- Peki bu durum kodu calinmaya ya da acik aramaya uygun hale getirmez mi? Evet getirir burada cozum 2 sekildedir 
+- 1. PyArmor ve Py installer ile kodu once anlasilmaz hale getirip sonra
+paketleyerek exe formatinda getirmek
+
+- 2. Yontem Nuitka ya da Cython ile c++ gibi bir dile cevirip makine koduna derlemek ancak buyuk kutuphaneler eklendiginde ya da proje cok buyurse 
+derleme ve calistirilabilir hale getirme islemi cok uzun surmektedir. Ancak performansi arttirir. Production'a cikacak urunlerde tercih edileblir.
 
 
 # Veri tipleri

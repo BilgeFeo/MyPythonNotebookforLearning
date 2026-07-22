@@ -130,3 +130,44 @@ from module import function # module icindeki sadece istenen fonksiyonu ve fonks
     personel_list : list
     
 ```
+
+
+
+
+
+# Git Kullanimi
+
+- Temel git kodlari
+
+``` bash
+
+    git init 
+
+    git remote add origin(origin local deki calisma ortaminin adi uzak sunucudaki main in localdeki adi) {reponun Github linki}
+
+    git add {buraya eklenecek dosyalar yazilir " . " konursa degisen tum dosyalari commit alanina ekler}
+
+    git commit -m "Bu alana eklnen feture ya da degisen noktalar yazilir"
+
+    git push -u origin main (origindeki degisikleri uzak sunucaya gonderir)
+
+    git branch (localdeki branchleri listeler) (-r parametresi uzaktaki branchleri listeler -a hem uzak hem localdeki branchleri listeler) {isim parametresi verirsen o isimde branch olusturur}
+
+    git checkout {branch adi ile o branche gecis yapar eger -b parametresi ile yazilirsa isim hem o branchi olusturur hemde o branche gecis yapar}
+
+    git br || git branche
+
+    glog || git log    
+
+    gco || git checkout 
+
+
+            \* Eger bir conflict yasanirsa yani iki farkli branch ayni dosyaya mudahale ederse conflict olusur bu conflict elle cozulmelidir*\
+
+
+
+
+
+
+
+```
